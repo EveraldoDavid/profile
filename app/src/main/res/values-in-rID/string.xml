@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AldoProfile</string>
+    <string name="followers">Pengikut</string>
+    <string name="lost">Pengikut hilang</string>
+    <string name="block">Blok kamu</string>
+    <string name="screet">Penggemar</string>
+</resources>

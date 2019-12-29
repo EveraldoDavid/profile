@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/bgk">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/bgcolor" />
+
+            <TextView
+                android:layout_width="148dp"
+                android:layout_height="38dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="220dp"
+                android:drawablePadding="20dp"
+                android:text="David Everaldo"
+                android:textColor="#FFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="150dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:src="@drawable/foto"/>
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_heart"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/followers"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_favorite_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="58"
+                android:textSize="20sp"
+                android:layout_toRightOf="@+id/tv_heart"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"/>
+
+            <TableRow
+                android:id="@+id/hr"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="1dp"
+                android:background="#444"></TableRow>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/lost"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_favorite_border_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="360dp"
+                android:text="20"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="1dp"
+                android:background="#444"></TableRow>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/block"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_block_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="360dp"
+                android:text="1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="1dp"
+                android:background="#444"></TableRow>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/screet"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_people_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="360dp"
+                android:text="30"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="1dp"
+                android:background="#444"></TableRow>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AldoProfile</string>
+    <string name="followers">Followers</string>
+    <string name="lost">Followers lost</string>
+    <string name="block">block you</string>
+    <string name="screet">screet admire</string>
+</resources>
